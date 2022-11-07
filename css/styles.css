@@ -192,7 +192,7 @@ body {
   margin-bottom: 30px;
 }
 .list-advantages .item-one::before {
-background-image: url(../images/antenna.svg);
+  background-image: url(../images/antenna.svg);
 }
 .list-advantages .item-two::before {
   background-image: url(../images/clock.svg);
@@ -496,12 +496,12 @@ display:inline-block;
 }
 .join .item-two {
   background-image: url(../images/tw-footer.svg);
-  background-size: 20px;
+  background-size:  20px;
   
 }
 .join .item-three {
   background-image: url(../images/fb-footer.svg);
-  background-size: 20px 20px;
+  background-size: 10px 20px;
 }
 .join .item-four {
   background-image: url(../images/in-footer.svg);
@@ -542,6 +542,11 @@ display:inline-block;
 
   margin-bottom: 50px;
 }
+.upper-list .item:hover,
+.upper-list .item:focus {
+border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .border {
   border: 1px solid #eeeeee;
 }
@@ -560,7 +565,13 @@ display:inline-block;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+
 }
+.lower-list .item:hover,
+.lower-list .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .lower-list .item:nth-child(3n) {
   margin-right: 0;
 }
