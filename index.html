@@ -29,9 +29,14 @@
           </ul>
           <ul class="list header-nav">
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="contacts jam ">info@devstudio.com</a>
+              <a class="contacts" href="mailto:info@devstudio.com" > <svg class="contacts-icon" width="16"
+                heigt="12">
+                <use href="./images/symbol-defs.svg#envelope"></use>
+              </svg> <span>info@devstudio.com</span></a>
             </li>
-            <li class="item"><a href="tel:+380961111111" class="contacts jan ">+380961111111</a></li>
+            <li class="item"><a class="contacts" href="tel:+380961111111" > <svg class="contacts-icon" width="10" height="16">
+              <use href="./images/symbol-defs.svg#smartphone" ></use>
+            </svg><span>+380961111111</span></a></li>
           </ul>
         </nav>
       </div>
@@ -39,10 +44,7 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button">Замовити послугу</button>
         </div>
       </section>
@@ -101,8 +103,10 @@
           <ul class="list team-list">
             <li class="item">
               <img src="./images/ihor.jpg" alt="фотографія чоловіка" width="270" />
-              <h3 class="name">Ігор Дем'яненко</h3>
-              <p class="position">Product Designer</p>
+              <div class="player-one">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p class="position">Product Designer</p>
+              </div>
               <ul class="list team-link">
                 <li class="item item-one"><a href=""></a></li>
                 <li class="item item-two"><a href=""></a></li>
@@ -112,8 +116,10 @@
             </li>
             <li class="item">
               <img src="./images/olga.jpg" alt="фотографія жінки" width="270" />
-              <h3 class="name">Ольга Рєпіна</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="player-two">
+                <h3 class="name">Ольга Рєпіна</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
               <ul class="list team-link">
                 <li class="item item-one"><a href=""></a></li>
                 <li class="item item-two"><a href=""></a></li>
@@ -123,8 +129,10 @@
             </li>
             <li class="item">
               <img src="./images/mikola.jpg" alt="фотографія чоловіка" width="270" />
-              <h3 class="name">Микола Тарасов</h3>
-              <p class="position">Marketing</p>
+              <div class="player-three">
+                <h3 class="name">Микола Тарасов</h3>
+                <p class="position">Marketing</p>
+              </div>
               <ul class="list team-link">
                 <li class="item item-one"><a href=""></a></li>
                 <li class="item item-two"><a href=""></a></li>
@@ -134,8 +142,10 @@
             </li>
             <li class="item">
               <img src="./images/mihailo.jpg" alt="фотографія чоловіка" width="270" />
-              <h3 class="name">Михайло Єрмаков</h3>
-              <p class="position">UI Designer</p>
+              <div class="player-four">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p class="position">UI Designer</p>
+              </div>
               <ul class="list team-link">
                 <li class="item item-one"><a href=""></a></li>
                 <li class="item item-two"><a href=""></a></li>
@@ -150,23 +160,34 @@
         <div class="container">
           <h2 class="clients-title">Постійні клієнти</h2>
           <ul class="list clients-list">
-            <li class="item item-one">
-              <a href=""></a> <img src="./images/client-one.svg" alt="логотип компанії" />
+            <li class="item clients-list-item ">
+              <a class="clients-list-link" href=""><svg   class="clients-item" width="106" height="60">
+                <use class="use"  href="./images/symbol-defs.svg#client1" ></use>
+              </svg></a> </li>
+            <li class="item clients-list-item">
+              <a class="clients-list-link" href=""> <svg class="clients-item" width="106" height="60"  >
+                <use href="./images/symbol-defs.svg#client2" ></use>
+              </svg></a> 
             </li>
-            <li class="item item-two">
-              <a href=""></a> <img src="./images/client-two.svg" alt="логотип компанії" />
+            <li class="item clients-list-item">
+              <a class="clients-list-link" href=""> <svg  class="clients-item" width="106" height="60" >
+                <use  href="./images/symbol-defs.svg#client3"></use>
+              </svg></a>
             </li>
-            <li class="item item-three">
-              <a href=""></a> <img src="./images/client-three.svg" alt="логотип компанії" />
+            <li class="item clients-list-item">
+              <a class="clients-list-link" href=""> <svg  class="clients-item" width="106" height="60" >
+                <use  href="./images/symbol-defs.svg#client4"></use>
+              </svg></a> 
             </li>
-            <li class="item item-four">
-              <a href=""></a> <img src="./images/client-four.svg" alt="логотип компанії" />
+            <li class="item clients-list-item">
+              <a class="clients-list-link" href=""> <svg  class="clients-item" width="106" height="60" >
+                <use  href="./images/symbol-defs.svg#client5"></use>
+              </svg></a> 
             </li>
-            <li class="item item-five">
-              <a href=""></a> <img src="./images/client-five.svg" alt="логотип компанії" />
-            </li>
-            <li class="item item-six">
-              <a href=""></a> <img src="./images/client-six.svg" alt="логотип компанії" />
+            <li class="item clients-list-item">
+              <a class="clients-list-link" href=""> <svg class="clients-item" width="106" height="60" >
+                <use  href="./images/symbol-defs.svg#client6"></use>
+              </svg></a>
             </li>
           </ul>
         </div>
@@ -206,6 +227,7 @@
           </ul>
         </div>
       </div>
+    
     </footer>
   </body>
 </html>
