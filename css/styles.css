@@ -37,7 +37,6 @@ img {
   height: auto;
   margin: 0;
 }
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -50,7 +49,6 @@ img {
   border-bottom: 1px solid #ececec;
   height: 80px;
 }
-
 .header-list .link {
   display: block;
   padding-top: 32px;
@@ -63,7 +61,6 @@ img {
   padding-bottom: 32px;
   align-items: center;
 }
-
 .list {
   list-style: none;
   padding: 0;
@@ -81,16 +78,13 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
 .link.current {
   color: var(--accent-color);
   text-decoration: none;
 }
-
 .logo-black {
   color: var(--secondary-logo-color);
 }
-
 .header-list {
   display: flex;
   margin-left: 93px;
@@ -99,12 +93,10 @@ img {
 .header-list .item:not(:last-child) {
   margin-right: 50px;
 }
-
 .header-nav {
   display: flex;
   align-items: center;
 }
-
 .link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -118,18 +110,13 @@ img {
 .link:focus {
   color: var(--accent-color);
 }
-
 .header-nav {
   display: flex;
   margin-left: auto;
 }
-
 .header-nav .item {
   margin-right: 30px;
 }
-
-
-
 .contacts {
   color: var(--title-text-color);
   text-decoration: none;
@@ -137,15 +124,12 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-
 }
 
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
-
 }
-
 .contacts-icon {
   margin-right: 10px;
 }
@@ -218,19 +202,20 @@ img {
 .features-list-item {
   display: block;
   width: 270px;
-  
   border-radius: 4px;
-  
-
 }
 .features-list-item:not(:last-child) {
   margin-right: 30px;
 }
 .features-icon {
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
   margin-bottom: 30px;
-
   background-color: var(--secondary-bkg-color);
+  border-radius: 4px;
 }
 
 
@@ -264,9 +249,7 @@ img {
 }
 .work-section {
   padding-bottom: 94px;
-  
 }
-
 .work-list {
   display: flex;
 }
@@ -282,7 +265,6 @@ img {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 50px;
@@ -339,9 +321,9 @@ img {
 }
  .team-link-social {
   fill: var(--additional-items-color);
-  display: block;
-  text-align: center;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
 }
@@ -365,7 +347,7 @@ img {
 .clients-list {
   display: flex;
 }
-.clients .clients-list-link {
+.clients-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,9 +370,7 @@ img {
 .clients-list-link:focus .clients-item {
   fill: var(--accent-color);
 }
-.clients-list-link {
-  padding: 16px 32px;
-}
+
 /* FOOTER */
 .footer-list-left {
   display: inline-block;
@@ -422,8 +402,6 @@ img {
   color: var(--primary-telmail-color);
   text-decoration: none;
 }
-
-
 .logo-white {
   margin-bottom: 20px;
   color: var(--secondary-text-color);
@@ -439,10 +417,8 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   margin-bottom: 20px;
 }
-
 .footer-nav-right {
   margin-left: 70px;
 }
@@ -454,11 +430,12 @@ img {
   fill: var(--secondary-text-color);
 }
 .footer-link-social {
-  padding: 12px;
-  display: block;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
-
 }
 .footer-link-social:hover,
 .footer-link-social:focus {
@@ -479,13 +456,11 @@ img {
 .footer-list-right .item + .item {
   margin-left: 10px;
 }
-
 .footer-adress-geo {
   display: inline-block;
   width: 231px;
   height: 21px;
   margin-bottom: 9px;
-
   color: var(--secondary-text-color);
     text-decoration: none;
 }
@@ -510,7 +485,6 @@ img {
 }
 .upper-list .item {
   margin-left: 8px;
-
   margin-bottom: 50px;
 }
 .upper-list .item:hover,
@@ -540,12 +514,14 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.lower-list .item:hover,
-.lower-list .item:focus {
+.lower-list .reference {
+  display: block;
+}
+.lower-list .reference:hover,
+.lower-list .reference:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .lower-list .item:nth-child(3n) {
   margin-right: 0;
 }
